@@ -23,8 +23,8 @@ In order to integrate CodePush into your Android project, please perform the fol
 
     ```gradle
     ...
-    apply from: "../../node_modules/react-native/react.gradle"
-    apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
+    apply from: "../node_modules/react-native/react.gradle"
+    apply from: "../node_modules/react-native-code-push/android/codepush.gradle"
     ...
     ```
 2. Update the `MainApplication.java` file to use CodePush via the following changes:
